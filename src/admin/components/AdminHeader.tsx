@@ -7,7 +7,7 @@ export const AdminHeader: React.FC = () => {
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
 
-  const handleSearch = (event: KeyboardEvent<HTMLInputElement>) => {
+  const handleSearch = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if(event.key !== 'Enter') return;
 
     const query = inputRef.current?.value;

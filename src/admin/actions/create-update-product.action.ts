@@ -7,7 +7,7 @@ export const createUpdateProductAction = async(
 ): Promise<Product> => {
     await sleep(1500);
 
-    const {id, user, images = [],files = [], ...rest } = productLike;
+    const {id, images = [],files = [], ...rest } = productLike;
 
     const isCreating = id === 'new';
 

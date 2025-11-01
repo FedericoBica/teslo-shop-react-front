@@ -1,5 +1,5 @@
 import { tesloApi } from "@/api/tesloApi";
-import type { Product } from "@/interfaces/user.interface";
+import type { Product } from "@/interfaces/product.interface";
 
 
 export const getProductByIdAction = async(id:string):Promise<Product> => {
