@@ -73,9 +73,9 @@ export const ProductForm = ({title, subtitle, product,isPending, onSubmit}:Props
     setValue('sizes', Array.from(sizeSet))
   };
 
-    const handleInputChange = (field: keyof Product, value: string | number) => {
-        // setProduct((prev) => ({ ...prev, [field]: value }));
-    };
+    // const handleInputChange = (field: keyof Product, value: string | number) => {
+    //     // setProduct((prev) => ({ ...prev, [field]: value }));
+    // };
 
   const handleDrag = (e: React.DragEvent) => {
     e.preventDefault();
